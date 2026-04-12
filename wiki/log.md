@@ -27,3 +27,26 @@
 - Source: https://www.workday.com/en-us/artificial-intelligence/agent-system-of-record.html -> raw/hr-operations/workday-agent-system-of-record.md
 - Updated: HRIS, HRMS, HCM, and Global Payroll Operating Models
 - Updated: Airtable for HR Workflow Management
+
+## [2026-04-12] ingest | Agent Skills Format Specification
+- Source: https://agentskills.io/specification → raw/hr-operations/agentskills-io-specification.md
+
+## [2026-04-12] ingest | Google Workspace CLI Skills Catalog
+- Source: https://github.com/googleworkspace/cli/blob/main/docs/skills.md → raw/hr-operations/googleworkspace-cli-skills-index.md
+- Updated: Agent Skills Format Specification
+
+## [2026-04-12] ingest | Anthropic Financial Services Plugins
+- Source: https://github.com/anthropics/financial-services-plugins → raw/hr-operations/anthropics-financial-services-plugins-readme.md
+- Updated: Agent Skills Format Specification
+
+## [2026-04-12] ingest | Anthropic Knowledge Work Plugins
+- Source: https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md → raw/hr-operations/anthropics-knowledge-work-plugins-readme.md
+- Updated: Anthropic Financial Services Plugins
+
+## [2026-04-12] ingest | Agent Skills Format Specification (plugins relation + 3-layer model)
+- Source: sources/how do https___code.claude.com_docs_en_plugins related to https___agentskills.io_home.md → raw/hr-operations/claude-plugins-vs-agentskills-standard-qa.md
+- Updated: Agent Skills Format Specification
+
+## [2026-04-12] ingest | Claude Plugin Agents and Tools
+- Source: sources/can I define an agent or subagent with a claude plugin.md → raw/hr-operations/claude-plugin-agents-subagents-and-tools-qa.md
+- Updated: Anthropic Knowledge Work Plugins

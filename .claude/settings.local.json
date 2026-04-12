@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(gh api:*)",
-      "WebFetch(*)"
+      "WebFetch(*)",
+      "Bash(gh repo:*)",
+      "Bash(python3 -c ':*)"
     ]
   }
 }

@@ -25,7 +25,7 @@
     return ts;
   };
 
-  const EXCLUDED_CLASSES = ['DBd2Wb', 'uJ19be', 'vKEkVd', 'rBl3me', 'Fwa2Od'];
+  const EXCLUDED_CLASSES = ['DBd2Wb'];
   const TAG_WRAPPERS = {
     'STRONG': function(t) { return '**' + t + '**'; },
     'EM': function(t) { return '*' + t + '*'; },
@@ -78,16 +78,6 @@
     return '\n' + lines.join('\n') + '\n';
   };
 
-  // Collect text from a node respecting EXCLUDED_CLASSES (no innerText shortcut)
-  const collectText = function(node) {
-    if (node.nodeType === 3) return node.textContent || '';
-    if (node.nodeType !== 1) return '';
-    const cn = typeof node.className === 'string' ? node.className : '';
-    if (EXCLUDED_CLASSES.some(function(c) { return cn.split(' ').indexOf(c) !== -1; })) return '';
-    if (node.tagName === 'A') return linkToMarkdown(node);
-    return Array.from(node.childNodes).map(collectText).join('');
-  };
-
   const extractResponseText = function(responseEl) {
     const parts = [];
     const walk = function(node, depth) {
@@ -127,7 +117,7 @@
       const wrapper = classWrapper || tagWrapper;
 
       if (wrapper) {
-        const t = collectText(node).trim();
+        const t = node.innerText;
         if (t) parts.push(wrapper(t));
         return;
       }
@@ -156,7 +146,7 @@
             const tw = TAG_WRAPPERS[n.tagName] || null;
             const w = cw || tw;
             if (w) {
-              const t = collectText(n).trim();
+              const t = n.innerText;
               if (t) liParts.push(w(t));
               return;
             }

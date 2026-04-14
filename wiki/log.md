@@ -1,5 +1,8 @@
 # Wiki Log
 
+## [2026-04-13] ingest | Compound Engineering Plugin
+- Source: https://github.com/EveryInc/compound-engineering-plugin → raw/hr-operations/compound-engineering-plugin.md
+
 ## [2026-04-12] ingest | Airtable for HR Workflow Management
 - Source: https://www.airtable.com/solutions/hr -> raw/hr-operations/strategic-hr-teams-use-airtable-to-create-high-performing.md
 

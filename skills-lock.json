@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "data-model-analyst": {
+      "source": "IntranetFactory/semantius-cli",
+      "sourceType": "github",
+      "computedHash": "d62724885fdea4c6d18167402372bd9ff4cc871164e90421dad7d4f8bf1ea3bc"
+    }
+  }
+}

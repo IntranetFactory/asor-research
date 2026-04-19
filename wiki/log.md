@@ -53,3 +53,12 @@
 ## [2026-04-12] ingest | Claude Plugin Agents and Tools
 - Source: sources/can I define an agent or subagent with a claude plugin.md → raw/hr-operations/claude-plugin-agents-subagents-and-tools-qa.md
 - Updated: Anthropic Knowledge Work Plugins
+
+## [2026-04-18] ingest | OpenClaw A2A Integration
+- Source: sources/openclaw seems to support a2a - does it provide an agent card for each agent_.md → raw/hr-operations/2026-04-18-openclaw-a2a-agent-cards-qa.md
+- Updated: ASOR Agent Definition API
+
+## [2026-04-18] ingest | A2A Agent Card Taxonomy and Governance
+- Source: sources/what are Tag _ Taxonomy Entry For A2A discoverability and governance queries_ Domain tags (HCM, Finance, etc.) Capability tags (create, report, approval) Sensitivity tags (read-only, PII, SOX).md → raw/hr-operations/2026-04-18-a2a-agent-card-taxonomy-qa.md
+- Updated: ASOR Agent Definition API
+- Updated: Agent Skills Format Specification

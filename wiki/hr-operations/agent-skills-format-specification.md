@@ -120,6 +120,10 @@ By covering only the expertise layer, the spec achieves:
 
 Skills and tools must be paired for an agent to be useful. Claude plugins enforce this pairing by co-locating `skills/` (SKILL.md files) and `.mcp.json` (tool connections) in the same directory.
 
+## Agent Card Skills vs SKILL.md
+
+A2A Agent Cards define "skills" as structured JSON execution endpoints — closer in nature to MCP tools or OpenAPI operations than to `SKILL.md` files. Where `SKILL.md` tells an LLM *how to perform a job* (descriptive, human/LLM-centric), an Agent Card skill tells an orchestrator *that a specific endpoint exists and is callable* (functional, machine-centric with schema validation and governance tags). The two are complementary: some implementations include a `description_url` in the card pointing to a `SKILL.md` for LLM reasoning while the JSON entry handles programmatic dispatch. See [A2A Agent Card Taxonomy and Governance](a2a-agent-card-taxonomy-and-governance.md) for the full comparison and JSON examples.
+
 ## See Also
 
 - [Claude Plugin Agents and Tools](claude-plugin-agents-and-tools.md)

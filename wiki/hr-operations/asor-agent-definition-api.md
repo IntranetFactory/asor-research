@@ -83,7 +83,7 @@ Tags serve both human discoverability and Agent-to-Agent (A2A) interoperability.
 - **Capability**: operational verbs (create, update, report, approval)
 - **Sensitivity**: access profile (read-only, PII-related, SOX-compliance)
 
-Use lowercase standardized tags; avoid ad hoc variations.
+Use lowercase standardized tags; avoid ad hoc variations. For the full A2A tag vocabulary, JSON samples, and governance enforcement patterns, see [A2A Agent Card Taxonomy and Governance](a2a-agent-card-taxonomy-and-governance.md).
 
 ### Pre-Registration: Workday IDs (WIDs)
 
@@ -105,4 +105,6 @@ Partner agents running outside Workday connect through the **Agent Gateway**, wh
 ## See Also
 
 - [Agent System of Record for Blended Workforces](agent-system-of-record-for-blended-workforces.md)
+- [A2A Agent Card Taxonomy and Governance](a2a-agent-card-taxonomy-and-governance.md)
+- [OpenClaw A2A Integration](openclaw-a2a-integration.md)
 - [HRIS, HRMS, HCM, and Global Payroll Operating Models](hris-hrms-hcm-and-global-payroll-operating-models.md)
